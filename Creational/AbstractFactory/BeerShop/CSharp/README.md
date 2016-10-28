@@ -55,8 +55,8 @@ public IPerson Create(string name, PositionInCompany position){
 
 ## Links
 
-* [StackOverflow Discussion]http://stackoverflow.com/questions/40298802/using-autofac-to-switch-a-concrete-implemetation-of-an-abstract-factory
-* [Ctr Injection Simple]http://blog.ploeh.dk/2011/03/03/InjectionConstructorsshouldbesimple/
-* [Abstract Factories are a code smell]https://www.cuttingedge.it/blogs/steven/pivot/entry.php?id=100
+* [StackOverflow Discussion](http://stackoverflow.com/questions/40298802/using-autofac-to-switch-a-concrete-implemetation-of-an-abstract-factory)
+* [Ctr Injection Simple](http://blog.ploeh.dk/2011/03/03/InjectionConstructorsshouldbesimple/)
+* [Abstract Factories are a code smell](https://www.cuttingedge.it/blogs/steven/pivot/entry.php?id=100)
 
 
