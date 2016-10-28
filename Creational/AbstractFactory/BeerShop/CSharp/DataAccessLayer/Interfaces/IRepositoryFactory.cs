@@ -1,11 +1,12 @@
 namespace BeerShop.DataAccessLayer
 {
-	public interface IRepositoryFactory
-	{
-		IRepository Create(RepositoryType type);
-	}
+    public interface IRepositoryFactory
+    {
+        IRepository Create(string name);
+    }
 
-	public enum RepositoryType{
+    public enum RepositoryType
+    {
         Json,
         Memory
     }

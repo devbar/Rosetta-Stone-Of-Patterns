@@ -1,11 +1,13 @@
 using Autofac;
 using BeerShop.DataAccessLayer;
 
-namespace BeerShop{
+namespace BeerShop
+{
     public class BeerShopServiceFactory : IBeerShopServiceFactory
     {
         private readonly ILifetimeScope _lifeTimeScope;
-        public BeerShopServiceFactory(ILifetimeScope lifeTimeScope){
+        public BeerShopServiceFactory(ILifetimeScope lifeTimeScope)
+        {
             _lifeTimeScope = lifeTimeScope;
         }
 

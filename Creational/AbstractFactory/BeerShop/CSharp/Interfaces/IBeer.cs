@@ -1,6 +1,8 @@
-namespace BeerShop{
-	public interface IBeer{
-		string Name { get; }
-		decimal Price { get;}
-	}
+namespace BeerShop
+{
+    public interface IBeer
+    {
+        string Name { get; }
+        decimal Price { get; }
+    }
 }
