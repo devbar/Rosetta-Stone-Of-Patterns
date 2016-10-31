@@ -1,6 +1,6 @@
 # BeerShop
 
-I started up to create a simple example combining AutoFac and Abstract Factories. The BeerShopService uses differnt implementations of IRepository to save data in memory or in JSON file. At the end of the day, I am not convinced if abstract factories are the best choice to solve the problem. The primary problem is to keep the constructor injection simple and avoid implementation complexity.
+I started up to create a simple example combining AutoFac and Abstract Factories. The BeerShopService uses different implementations of IRepository to save data in memory or in JSON file. At the end of the day, I am not convinced if abstract factories are the best choice to solve the problem. The primary problem is to keep the constructor injection simple and avoid implementation complexity.
 
 ## When to use (Abstract) Factories
 
@@ -39,7 +39,7 @@ public IPerson Create(string name){
 ```
 ## Increasing Complexity
 
-But what if we need different kind of persons? We have to define differnt classes implementing IPerson.
+But what if we need different kind of persons? We have to define different classes implementing IPerson.
 
 ```csharp
 
